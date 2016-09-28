@@ -1,5 +1,8 @@
 This is Master Mind Board Game Designed in C++ using MVC Architecture, Observer and State Design Patterns
 
+0) You can pull down the source code from:
+https://github.com/phuoctranvn/mvcprogram.git
+by SVN or GIT
 
 Using gcc under Linux which supports c++11 to compile these source code by:
 1) For comping application:
