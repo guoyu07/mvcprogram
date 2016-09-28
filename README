@@ -1,0 +1,77 @@
+This is Master Mind Board Game Designed in C++ using MVC Architecture, Observer and State Design Patterns
+
+
+Using gcc under Linux which supports c++11 to compile these source code by:
+1) For comping application:
+
+make all
+
+2) For program execution:
+
+./mastermind
+
+3) For debugging program:(for developers)
+./debug
+
+( Note: The main code of Frans van Gool's MasterMind algorithm is located at
+./src/Algorithm/mmind.cpp )
+
+4)OUTPUT (Example):
+
+----------------------------------------------------------------
+*************************MasterMind Game************************
+----------------------------------------------------------------
+Main Menu ::
+1 :: Start The Game
+2 :: Help
+3 :: Exit
+Please Enter your choice  :: 1
+-----------------------------------------------------------------
+*************************PROGRAM STARTED****************************
+-----------------------------------------------------------------
+This is Frans van Gool's MasterMind algorithm
+for guessing Code with maximum 8 times
+Colors allowed are ::
+        BLUE , GREEN , ORANGE , RED , VOILET , YELLOW
+-------------------------STARTING....-------------------------
+----FOUR COLORS ARE CHOSEN BY USER RANDOMLY-------------
+----NOW COMPUTER DOES GUESS THESE COLORS-----------------
+-----------------------------1-------------------------------
+Code Pegs for Peg Row 1 are :: RED , RED , YELLOW , YELLOW
+->Key Pegs for Peg Row 1 are : EMPTY , EMPTY , WHITE , BLACK
+-----------------------------2-------------------------------
+Code Pegs for Peg Row 2 are :: RED , YELLOW , GREEN , GREEN
+->Key Pegs for Peg Row 2 are : EMPTY , WHITE , EMPTY , EMPTY
+-----------------------------3-------------------------------
+Code Pegs for Peg Row 3 are :: YELLOW , ORANGE , YELLOW , ORANGE
+->Key Pegs for Peg Row 3 are : BLACK , BLACK , WHITE , EMPTY
+-----------------------------4-------------------------------
+Code Pegs for Peg Row 4 are :: YELLOW , ORANGE , VOILET , YELLOW
+->Key Pegs for Peg Row 4 are : BLACK , BLACK , EMPTY , BLACK
+-----------------------------5-------------------------------
+Code Pegs for Peg Row 5 are :: YELLOW , ORANGE , BLUE , YELLOW
+->Key Pegs for Peg Row 5 are : BLACK , BLACK , BLACK , BLACK
+----------------------------------------------------------------
+*************************PROGRAM ENDED*****************************
+----------------------------------------------------------------
+
+**Computer Won**
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------
+Date  : 09th September 2016
+Author: TRAN VAN PHUOC
+Email : phuoc683@gmail.com
+--------------------------------------------------------
+

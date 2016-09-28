@@ -1,0 +1,25 @@
+
+path="./src/Pattern"
+for filename in ${path}/*.cpp; do
+    vim -s indentme_quiet.scr "$filename"
+done
+path="./src/Model"
+for filename in ${path}/*.cpp; do
+    vim -s indentme_quiet.scr "$filename"
+done
+path="./src/View"
+for filename in ${path}/*.cpp; do
+    vim -s indentme_quiet.scr "$filename"
+done
+path="./src/Controller"
+for filename in ${path}/*.cpp; do
+    vim -s indentme_quiet.scr "$filename"
+done
+path="./src/Algorithm"
+for filename in ${path}/*.cpp; do
+    vim -s indentme_quiet.scr "$filename"
+done
+path="./include"
+for filename in ${path}/*.h; do
+    vim -s indentme_quiet.scr "$filename"
+done

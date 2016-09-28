@@ -1,0 +1,2 @@
+:silent execute "normal gg=G" | :silent update! | q!
+
